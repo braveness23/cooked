@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+    "name": "Cooked Wiki Redirector",
+    "version": "1.0",
+    "description": "Prefixes the current page URL with https://cooked.wiki and redirects you.",
+    "permissions": [
+        "tabs"
+    ],
+    "action": {
+        "default_icon": {
+            "16": "16x16.png",
+            "32": "32x32.png",
+            "48": "48x48.png",
+            "128": "128x128.png"
+        },
+        "default_title": "Go to Cooked Wiki"
+    },
+    "background": {
+        "service_worker": "background.js"
+    }
+}
